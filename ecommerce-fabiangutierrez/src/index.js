@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { MenuPrincipal } from './component/menu-principal';
+import { App } from './component/App';
 
-ReactDOM.render( < MenuPrincipal / > ,
+ReactDOM.render( < App / > ,
     document.getElementById('root')
 );
 

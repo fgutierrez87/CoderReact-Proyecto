@@ -1,0 +1,13 @@
+.carrito {
+    width: 35px;
+    position: absolute;
+    right: 10%;
+    top: 5%
+}
+
+.carrito:hover {
+    width: 40px;
+    position: absolute;
+    right: 10%;
+    top: 4.5%
+}
