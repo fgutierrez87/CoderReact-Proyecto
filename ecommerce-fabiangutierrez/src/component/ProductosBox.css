@@ -1,0 +1,25 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+}
+.tamano{
+width: 200px;
+height: 120px;
+position: relative;
+margin-left: 50%;
+margin-top: 10%;
+border: 1px black solid;
+text-align: center;
+}
+.titulo{
+    position: relative;
+    padding-bottom: 20px;
+}
+.botonSubirBajar{
+    position: relative;
+    padding-left: 38%;
+}
+.botonBajar{
+    position: relative;
+  
+}

@@ -1,15 +1,17 @@
 import React from "react";
 import { NavBar } from './NavBar'
 import { ItemListContainer } from './ItemListContainer'
+import { ProductosBox } from './ProductosBox'
 
 export const App = () => {
-const saludo='Saludos en Pantalla';
+    const saludo = 'Saludos en Pantalla';
 
-    return ( < div >
+    return (< div >
         <NavBar>
-        <ItemListContainer greetings = {saludo}/>
+            <ItemListContainer greetings={saludo} />
         </NavBar>
-        </div>
+        <ProductosBox />
+    </div>
 
     )
 }
