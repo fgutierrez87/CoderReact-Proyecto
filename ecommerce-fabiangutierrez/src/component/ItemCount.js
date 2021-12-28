@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import './ProductosBox.css'
+import './ItemCount.css'
 
 export const ProductosBox = () => {
     const [contador, setContador] = useState(0);
@@ -25,7 +25,7 @@ export const ProductosBox = () => {
         <div className="tamano">
             <div className="titulo">Máximo 10 Productos</div>
             <div>{contador}</div>
-            <div className="contenedor"><div className="botonSubirBajar"><button onClick={aumentaCantidad} value='+' >+</button></div><div className="botonBajar"><button onClick={desminuirCantidad}>-</button></div></div>
+            <div className="contenedor"><div className="botonSubirBajar"><button onClick={desminuirCantidad}>-</button></div><div className="botonBajar"><button onClick={aumentaCantidad} value='+' >+</button></div></div>
             <div><button onClick={mostrarEnLog}>Agregar al Carrito</button></div>
         </div >
     )

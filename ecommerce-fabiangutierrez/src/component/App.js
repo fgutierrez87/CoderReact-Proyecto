@@ -1,7 +1,7 @@
 import React from "react";
 import { NavBar } from './NavBar'
 import { ItemListContainer } from './ItemListContainer'
-import { ProductosBox } from './ProductosBox'
+import { ProductosBox } from './ItemCount'
 
 export const App = () => {
     const saludo = 'Saludos en Pantalla';
